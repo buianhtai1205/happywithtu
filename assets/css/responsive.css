@@ -1,0 +1,27 @@
+/* Mobile */
+@media only screen and (max-width: 46.1875em) {
+    #slider img {
+        padding-top: 24px;
+        max-width: 100vw;
+        height: auto;
+    }
+}
+
+/* Table */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    #main-header {
+        font-size: 24px;
+    }
+    .header-title {
+        font-size: 18px;
+    }
+    #slider img {
+        max-width: 100vw;
+        height: auto;
+    }
+}
+
+/* Pc */
+@media only screen and (min-width: 64em) {
+
+}

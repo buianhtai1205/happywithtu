@@ -1,0 +1,165 @@
+/* reset css */
+html {
+box-sizing: border-box;
+}
+*{
+margin: 0;
+padding: 0;
+}
+*,*:before,*:after {
+box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button{
+outline: none;
+}
+input{
+line-height: normal;
+}
+label,
+button{
+cursor: pointer;
+}
+a {
+text-decoration: none;
+}
+img {
+display: block;
+max-width: 100%;
+}
+
+
+
+#main {
+    /* background-color: #fff; */
+    font-family: "Helvetica Neue",Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: #000;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+#header-nav {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+#main-header {
+    font-size: 32px;
+    font-family: 'Ultra', serif;
+    color: #fff;
+    line-height: 90px; 
+}
+
+.header-title { 
+    color: #fff;
+    font-size: 24px;
+    line-height: 90px;
+}
+
+#main-header:hover,
+.header-title:hover {
+    color:rgb(241, 8, 8);
+}
+
+#main-info {
+    background-color: #f0480f;
+    color: #fff;
+    font-weight: bold;
+    width: 25%;
+    text-align: center;
+    line-height:60px;
+    margin: 15px 0px;
+}
+
+#main-info:hover {
+    background-color: #fff;
+    color: red;
+}
+
+#header-nav::after {
+    content: "HappyWithTu";
+    font-size: 20px;
+    font-family: 'Ultra', serif;
+    color: rgb(241, 8, 8);
+    position: absolute;
+    right: 88px;
+    transform: translateY(650px);
+}
+
+#slider img {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#content {
+    background-color: #fff;
+    height: 1500px;
+    max-width: 1200px;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+.content-info img {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    transform: translate(10%,-30%);
+    border: 10px solid #fff;
+    float: left;
+}
+
+.content-info .info {
+   width: 60%;
+   /* background-color: red; */
+   margin: 0 auto;
+   transform: translateX(20%);
+   padding-top: 50px;
+   text-align: justify;
+   font-size: 24px;
+}
+
+#footer {
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-image: url(/assets/img/footer.jpg);
+    background-position: center top;
+    background-repeat: repeat;
+    height:350px;
+}
+
+#footer .block {
+    padding: 4% 10% 0;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#footer .block a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#footer .block i {
+    padding: 0px 16px;
+}
+
+#footer .block #icon {
+    padding-top: 32px;
+}
+
+#footer .block #icon a:hover,
+#footer .block #link a:hover {
+    color: greenyellow;
+    font-size: 25px;
+}
