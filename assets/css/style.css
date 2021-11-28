@@ -185,7 +185,7 @@ max-width: 100%;
     background-size: cover;
     background-attachment: scroll;
     background-origin: content-box;
-    background-image: url(/assets/img/footer.jpg);
+    background-image: url(footer.jpg);
     background-position: center top;
     background-repeat: repeat;
     height:350px;
