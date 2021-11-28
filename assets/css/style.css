@@ -30,7 +30,13 @@ display: block;
 max-width: 100%;
 }
 
-
+.line {
+    margin-top: 48px;
+    margin-bottom: 24px;
+    width: 100%;
+    height: 2px;
+    background-color:#000;
+}
 
 #main {
     /* background-color: #fff; */
@@ -102,7 +108,6 @@ max-width: 100%;
 
 #content {
     background-color: #fff;
-    height: 1500px;
     max-width: 1200px;
     margin: 0 auto;
     line-height: 1.4;
@@ -115,6 +120,7 @@ max-width: 100%;
     transform: translate(10%,-30%);
     border: 10px solid #fff;
     float: left;
+    z-index: 10;
 }
 
 .content-info .info {
@@ -125,6 +131,54 @@ max-width: 100%;
    padding-top: 50px;
    text-align: justify;
    font-size: 24px;
+}
+
+.content-book,
+.content-life {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;   
+}
+
+#content h2,
+#content h1 {
+    font-size: 32px;
+    margin: 0px 0 8px;
+}
+
+.content-life #weak {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.content-life .flex-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 12px 0px;
+}
+
+.content-life ._6mui {
+    width: 40%;
+    height: auto;
+}
+
+.content-book {
+    margin-top: 32px;
+}
+
+.content-book-info {
+    display: flex;
+}
+
+.content-book-info .text {
+    
+}
+
+.content-book-info img {
+    padding-left: 20px;
+    width: 30%;
+    height: auto;
 }
 
 #footer {
@@ -144,6 +198,11 @@ max-width: 100%;
     font-weight: bold;
     line-height: 1.5;
 }
+
+#footer .block #hotline {
+    display: flex;
+}
+
 
 #footer .block a {
     color: #fff;
