@@ -1,27 +1,120 @@
 /* Mobile */
 @media only screen and (max-width: 46.1875em) {
+    .mobile {
+        display: none;
+    }
+    #header {
+        height: 60px;
+    }
     #slider img {
-        padding-top: 24px;
+        padding-top: 60px;
         max-width: 100vw;
         height: auto;
+    }
+
+    #main-header {
+        font-size: 16px;
+        line-height: 60px;
+    }
+    .header-title {
+        font-size: 14px;
+    }
+    #header-nav::after {
+        display: none;
+    }
+    #main-info {
+        width: 48%;
+        line-height: 36px;
+        margin: 12px 0;
+    }
+    .content-info img {
+        width: 50%;
+        float: none;
+    }
+    .content-info .info {
+        width: 100%;
+        transform: none;
+        font-size: 16px;
+        padding: 0px 6px;
+    }
+    .content-life {
+        font-size: 16px;
+        padding: 0px 6px;
+    }
+    .content-book {
+        font-size: 16px;
+        padding: 0px 6px;
+    }
+    #content h2, #content h1 {
+        font-size: 18px;
+        margin: 0;
+    }
+    #content h2 {
+        font-size: 16px;
+    }
+    .content-life #weak {
+        width: 95%;
+    }
+    .content-life ._6mui {
+        width: 48%;
+    }
+    .content-book-info {
+        display: block;
+    }
+    .content-book-info img {
+        width: 80%;
+        margin: 12px auto;
+    }
+    .hotline-phone-ring-wrap {
+        display: block;
+    }
+    #footer {
+        height: auto;
+    }
+    #footer .block {
+        padding: 9% 2% 6px;
+        font-size: 16px;  
+    }
+    #footer .block #icon {
+        font-size: 16px;
     }
 }
 
 /* Table */
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
     #main-header {
-        font-size: 24px;
+        font-size: 20px;
     }
     .header-title {
-        font-size: 18px;
+        font-size: 16px;
+    }
+    #header-nav::after {
+        display: none;
     }
     #slider img {
         max-width: 100vw;
         height: auto;
     }
-}
-
-/* Pc */
-@media only screen and (min-width: 64em) {
-
+    .content-info .info {
+        font-size: 18px;
+        width: 65%;
+        padding-top: 12px;
+    }
+    .content-life {
+        font-size: 18px;
+        padding: 0px 12px;
+    }
+    .content-book {
+        font-size: 18px;
+        padding: 0px 12px;
+    }
+    .content-book-info img {
+        width: 40%;
+    }
+    #footer .block {
+        padding: 4% 5% 0;
+    }
+    .hotline-phone-ring-wrap {
+        display: block;
+    }
 }
