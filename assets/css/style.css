@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Noto-Serif-Display-Bold';
-    src:url('../font/webfonts_Noto-Serif-Display-Bold/Noto-Serif-Display-Bold.ttf.woff') format('woff'),
-        url('../font/webfonts_Noto-Serif-Display-Bold/Noto-Serif-Display-Bold.ttf.svg#Noto-Serif-Display-Bold') format('svg'),
-        url('../font/webfonts_Noto-Serif-Display-Bold/Noto-Serif-Display-Bold.ttf.eot'),
-        url('../font/webfonts_Noto-Serif-Display-Bold/Noto-Serif-Display-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    src:url('Noto-Serif-Display-Bold.ttf.woff') format('woff'),
+        url('Noto-Serif-Display-Bold.ttf.svg#Noto-Serif-Display-Bold') format('svg'),
+        url('Noto-Serif-Display-Bold.ttf.eot'),
+        url('Noto-Serif-Display-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
         font-weight: normal;
         font-style: normal;
 }
