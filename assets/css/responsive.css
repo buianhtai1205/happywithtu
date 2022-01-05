@@ -16,6 +16,10 @@
         font-size: 16px;
         line-height: 60px;
     }
+    #special {
+        font-size: 16px;
+        line-height: 60px;
+    }
     .header-title {
         font-size: 14px;
     }
@@ -83,7 +87,10 @@
 /* Table */
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
     #main-header {
-        font-size: 20px;
+        font-size: 22px;
+    }
+    #special {
+        font-size: 22px;
     }
     .header-title {
         font-size: 16px;

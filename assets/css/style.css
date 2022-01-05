@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Noto-Serif-Display-Bold';
+    src:url('../font/webfonts_Noto-Serif-Display-Bold/Noto-Serif-Display-Bold.ttf.woff') format('woff'),
+        url('../font/webfonts_Noto-Serif-Display-Bold/Noto-Serif-Display-Bold.ttf.svg#Noto-Serif-Display-Bold') format('svg'),
+        url('../font/webfonts_Noto-Serif-Display-Bold/Noto-Serif-Display-Bold.ttf.eot'),
+        url('../font/webfonts_Noto-Serif-Display-Bold/Noto-Serif-Display-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+        font-weight: normal;
+        font-style: normal;
+}
+
 /* reset css */
 html {
 box-sizing: border-box;
@@ -62,10 +72,17 @@ max-width: 100%;
 }
 
 #main-header {
-    font-size: 32px;
-    font-family: 'Ultra', serif;
-    color: #fff;
+    
+}
+.header_edit {
+    font-size: 36px;
+    /* font-family: 'Ultra', serif; */
+    font-family: 'Noto-Serif-Display-Bold';
+    color: rgb(245, 230, 23);
     line-height: 90px; 
+}
+#special {
+    color: rgb(9, 25, 248);
 }
 
 .header-title { 
@@ -95,10 +112,10 @@ max-width: 100%;
 }
 
 #header-nav::after {
-    content: "HappyWithTu";
+    content: "Young - Healthy - Happy";
     font-size: 20px;
     font-family: 'Ultra', serif;
-    color: rgb(241, 8, 8);
+    color: rgb(60, 40, 245);
     position: absolute;
     right: 88px;
     transform: translateY(650px);
